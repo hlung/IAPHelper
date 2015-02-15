@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
   s.source_files = "IAPHelper/*.{h,m}"
   s.public_header_files = "IAPHelper/*.h"
   s.framework  = 'StoreKit'
+  s.dependency 'SFHFKeychainUtils', '~> 0.0.1'
   
 end

@@ -8,7 +8,7 @@
 
 #import "IAPHelper.h"
 #import "NSString+Base64.h"
-#import "SFHFKeychainUtils.h"
+#import <SFHFKeychainUtils/SFHFKeychainUtils.h>
 
 #if ! __has_feature(objc_arc)
 #error You need to either convert your project to ARC or add the -fobjc-arc compiler flag to IAPHelper.m.
